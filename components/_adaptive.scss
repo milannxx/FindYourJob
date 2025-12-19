@@ -2,7 +2,6 @@
 
     .header {
         &_container {
-
             flex-direction: column;
 
             &--content {
@@ -26,6 +25,7 @@
             display: grid;
             grid-template-columns: 1fr 1fr 1fr;
             gap: 30px;
+            justify-items: center;
         }
     }
 }
@@ -47,6 +47,20 @@
             &--box {
                 display: none;
             }
+        }
+    }
+
+    .categories {
+
+        &_title {
+            text-align: center;
+        }
+        
+        &_container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            justify-items: center;
         }
     }
 }

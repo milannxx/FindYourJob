@@ -266,6 +266,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
+    justify-items: center;
   }
 }
 @media (max-width: 700px) {
@@ -277,6 +278,15 @@
   }
   .header_top--box {
     display: none;
+  }
+  .categories_title {
+    text-align: center;
+  }
+  .categories_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    justify-items: center;
   }
 }
 @media (max-width: 560px) {
