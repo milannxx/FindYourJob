@@ -70,13 +70,13 @@
                 display: none;
             }
 
-            &--menu {
-                display: block;
-            }
-
             &--box {
                 display: none;
             }
+        }
+
+        &_menu {
+            display: block;
         }
     }
 

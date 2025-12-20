@@ -21,7 +21,33 @@
                 <button class="header_top--box--buttonFirst">Войти</button>
                 <button class="header_top--box--buttonSecond">Регистрация</button>
             </div>
-            <div class="header_top--menu"><img src="img/header-menu.svg" alt="image"></div>
+            <button class="header_menu" type="button" aria-label="Открыть меню" aria-expanded="false">
+                <img src="img/header-menu.svg" alt="image">
+            </button>
+            <!-- mobile menu -->
+            <div class="mobile-menu" id="mobileMenu" aria-hidden="true">
+                <div class="mobile-menu__overlay" data-close></div>
+
+                <div class="mobile-menu__panel" role="dialog" aria-modal="true" aria-label="Меню">
+                    <div class="mobile-menu__top">
+                        <img src="./img/logo.svg" alt="logo" class="mobile-menu__logo">
+
+                        <button class="mobile-menu__close" type="button" aria-label="Закрыть меню" data-close>
+                            ✕
+                        </button>
+                    </div>
+                    <nav class="mobile-menu__nav">
+                        <a class="mobile-menu__link" href="#">Главная</a>
+                        <a class="mobile-menu__link" href="#">Вакансии</a>
+                        <a class="mobile-menu__link" href="#">Компании</a>
+                    </nav>
+
+                    <div class="mobile-menu__actions">
+                        <a class="mobile-menu__in" href="#">Войти</a>
+                        <button class="mobile-menu__register" type="button">Регистрация</button>
+                    </div>
+                </div>
+            </div>
         </section>
         <section class="header_container">
             <div class="header_container--content">
@@ -128,18 +154,23 @@
                         <div class="vacancies_container--card--content--left">
                             <img src="img/logo-vacancies.png" alt="image">
                             <div class="vacancies_container--card--content--left--info">
-                                <h5 class="vacancies_container--card--content--left--info--job">Front-end разработчик</h5>
+                                <h5 class="vacancies_container--card--content--left--info--job">Front-end разработчик
+                                </h5>
                                 <p class="vacancies_container--card--content--left--info--place">Технопарк, Казань</p>
                             </div>
                         </div>
                         <div class="vacancies_container--card--content--right">
                             <button class="vacancies_container--card--content--right--button">65 000 ₽</button>
                             <div class="vacancies_container--card--content--right--requirements">
-                                <p class="vacancies_container--card--content--right--requirements--title">Требования:</p>
+                                <p class="vacancies_container--card--content--right--requirements--title">Требования:
+                                </p>
                                 <div class="vacancies_container--card--content--right--requirements--box">
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">React</a>
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">Sass</a>
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">Figma</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">React</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">Sass</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">Figma</a>
                                 </div>
                             </div>
                         </div>
@@ -151,18 +182,23 @@
                         <div class="vacancies_container--card--content--left">
                             <img src="img/logo-vacancies.png" alt="image">
                             <div class="vacancies_container--card--content--left--info">
-                                <h5 class="vacancies_container--card--content--left--info--job">Front-end разработчик</h5>
+                                <h5 class="vacancies_container--card--content--left--info--job">Front-end разработчик
+                                </h5>
                                 <p class="vacancies_container--card--content--left--info--place">Технопарк, Казань</p>
                             </div>
                         </div>
                         <div class="vacancies_container--card--content--right">
                             <button class="vacancies_container--card--content--right--button">65 000 ₽</button>
                             <div class="vacancies_container--card--content--right--requirements">
-                                <p class="vacancies_container--card--content--right--requirements--title">Требования:</p>
+                                <p class="vacancies_container--card--content--right--requirements--title">Требования:
+                                </p>
                                 <div class="vacancies_container--card--content--right--requirements--box">
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">React</a>
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">Sass</a>
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">Figma</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">React</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">Sass</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">Figma</a>
                                 </div>
                             </div>
                         </div>
@@ -174,18 +210,23 @@
                         <div class="vacancies_container--card--content--left">
                             <img src="img/logo-vacancies.png" alt="image">
                             <div class="vacancies_container--card--content--left--info">
-                                <h5 class="vacancies_container--card--content--left--info--job">Front-end разработчик</h5>
+                                <h5 class="vacancies_container--card--content--left--info--job">Front-end разработчик
+                                </h5>
                                 <p class="vacancies_container--card--content--left--info--place">Технопарк, Казань</p>
                             </div>
                         </div>
                         <div class="vacancies_container--card--content--right">
                             <button class="vacancies_container--card--content--right--button">65 000 ₽</button>
                             <div class="vacancies_container--card--content--right--requirements">
-                                <p class="vacancies_container--card--content--right--requirements--title">Требования:</p>
+                                <p class="vacancies_container--card--content--right--requirements--title">Требования:
+                                </p>
                                 <div class="vacancies_container--card--content--right--requirements--box">
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">React</a>
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">Sass</a>
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">Figma</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">React</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">Sass</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">Figma</a>
                                 </div>
                             </div>
                         </div>
@@ -197,18 +238,23 @@
                         <div class="vacancies_container--card--content--left">
                             <img src="img/logo-vacancies.png" alt="image">
                             <div class="vacancies_container--card--content--left--info">
-                                <h5 class="vacancies_container--card--content--left--info--job">Front-end разработчик</h5>
+                                <h5 class="vacancies_container--card--content--left--info--job">Front-end разработчик
+                                </h5>
                                 <p class="vacancies_container--card--content--left--info--place">Технопарк, Казань</p>
                             </div>
                         </div>
                         <div class="vacancies_container--card--content--right">
                             <button class="vacancies_container--card--content--right--button">65 000 ₽</button>
                             <div class="vacancies_container--card--content--right--requirements">
-                                <p class="vacancies_container--card--content--right--requirements--title">Требования:</p>
+                                <p class="vacancies_container--card--content--right--requirements--title">Требования:
+                                </p>
                                 <div class="vacancies_container--card--content--right--requirements--box">
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">React</a>
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">Sass</a>
-                                    <a class="vacancies_container--card--content--right--requirements--box--link" href="#">Figma</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">React</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">Sass</a>
+                                    <a class="vacancies_container--card--content--right--requirements--box--link"
+                                        href="#">Figma</a>
                                 </div>
                             </div>
                         </div>
@@ -221,10 +267,12 @@
         <section class="mailing">
             <div class="mailing_container">
                 <h2 class="mailing_container--title">Подпишитесь на рассылку с новыми вакансиями</h2>
-                <p class="mailing_container--text">Мы отправляем по одному письму в неделю с подходящими вам вакансиями</p>
+                <p class="mailing_container--text">Мы отправляем по одному письму в неделю с подходящими вам вакансиями
+                </p>
                 <div class="mailing_container--box">
                     <input class="mailing_container--box--input" type="text" required placeholder="E-mail">
-                    <button class="mailing_container--box--button"><img src="img/mailing-svg.svg" alt="image"><span class="mailing_container--box--button--span">Подписаться</span></button>
+                    <button class="mailing_container--box--button"><img src="img/mailing-svg.svg" alt="image"><span
+                            class="mailing_container--box--button--span">Подписаться</span></button>
                 </div>
             </div>
         </section>
@@ -259,6 +307,7 @@
             </ul>
         </div>
     </footer>
+    <script src="script.js"></script>
 </body>
 
 </html>
