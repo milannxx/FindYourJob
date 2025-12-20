@@ -3,7 +3,7 @@
     width: 100%;
     max-width: 1146px;
     margin-top: 70px;
-    padding: 0px 15px;
+    padding: 15px 0;
 
     &_title {
         font-family: Fira Sans;
@@ -30,6 +30,7 @@
             flex-direction: column;
             align-items: center;
             padding: 35px 0;
+            cursor: pointer;
 
             &:hover {
                 background-color: #1A75E8;
@@ -59,6 +60,251 @@
 
             &:hover .categories_container--card--subtitle {
                 color: #FFFFFF;
+            }
+        }
+    }
+}
+
+.vacancies {
+    display: flex;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 150px;
+    width: 100%;
+    max-width: 1146px;
+    padding: 0 15px;
+
+    &_title {
+        text-align: left;
+        margin-bottom: 40px;
+        font-family: Fira Sans;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #111238;
+    }
+
+    &_container {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        &--card {
+            padding: 30px 55px 30px 30px;
+            border: 1px solid #C5C9D4;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            gap: 140px;
+
+            &--content {
+                display: flex;
+                gap: 46px;
+                align-items: center;
+
+                &--left {
+                    display: flex;
+                    align-items: center;
+                    gap: 20px;
+
+                    &--info {
+                        display: flex;
+                        flex-direction: column;
+                        align-items: flex-start;
+                        gap: 10px;
+
+                        &--job {
+                            font-family: Fira Sans;
+                            font-weight: 700;
+                            font-size: 16px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: #111238;
+                            text-align: left;
+                        }
+
+                        &--place {
+                            font-family: Fira Sans;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: #111238;
+                            text-align: left;
+                        }
+                    }
+                }
+
+                &--right {
+                    display: flex;
+                    align-items: center;
+                    gap: 62px;
+
+                    &--button {
+                        width: 113px;
+                        height: 39px;
+                        background-color: #1A75E8;
+                        border: none;
+                        border-radius: 5px;
+                        font-family: Fira Sans;
+                        font-weight: 700;
+                        font-size: 16px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        text-align: center;
+                        color: #FFFFFF;
+                        cursor: pointer;
+                    }
+
+                    &--requirements {
+                        display: flex;
+                        gap: 15px;
+                        align-items: center;
+
+                        &--title {
+                            font-family: Fira Sans;
+                            font-weight: 400;
+                            font-size: 14px;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            color: #B2B2B2;
+                        }
+
+                        &--box {
+                            display: flex;
+                            gap: 10px;
+                            align-items: center;
+                            justify-content: space-between;
+
+                            &--link {
+                                border: 1px solid #B2B2B2;
+                                padding: 5px 10px;
+                                text-decoration: none;
+                                font-family: Fira Sans;
+                                font-weight: 400;
+                                font-size: 14px;
+                                line-height: 100%;
+                                letter-spacing: 0%;
+                                cursor: pointer;
+                                border-radius: 5px;
+                                color: #B2B2B2;
+                                background-color: transparent;
+                            }
+                        }
+                    }
+                }
+            }
+
+            &--link {
+                font-family: Fira Sans;
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 100%;
+                letter-spacing: 0%;             
+                text-decoration: none;
+                color: #1A75E8;   
+            }
+        }
+    }
+
+    &_button {
+        padding: 15px 30px;
+        background-color: #1A75E8;
+        border: none;
+        border-radius: 5px;
+        font-family: Fira Sans;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 0 auto;
+        margin-top: 40px;
+        cursor: pointer;
+    }
+}
+
+.mailing {
+    background-color: #F2F3F6;
+    padding: 90px 15px;
+    margin-top: 80px;
+
+    &_container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        &--title {
+            font-family: Fira Sans;
+            font-weight: 900;
+            font-size: 36px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            text-align: center;
+            color: #111238;
+            margin-bottom: 20px;
+            width: 460px;
+        }
+
+        &--text {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 18px;
+            line-height: 140%;
+            letter-spacing: 0%;
+            text-align: center;
+            color: #111238;
+            margin-bottom: 40px;
+            width: 377px;
+        }
+
+        &--box {
+            display: flex;
+            align-items: center;
+            gap: 43px;
+            width: 447px;
+            height: 70px;
+            background-color: #FFFFFF;
+            border: 1px solid #D1D1D11A;
+            border-radius: 5px;
+            box-shadow: 0px 4px 25px 0px #0F11381A;
+            margin-bottom: 25px;
+
+            &--input {
+                border: none;
+                font-family: Fira Sans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                padding-left: 25px;
+                width: 211px;
+
+                &::placeholder {
+                    color: #B2B2B2;
+                }
+            }
+
+            &--button {
+                width: 181px;
+                height: 49px;
+                background-color: #1A75E8;
+                border: none;
+                border-radius: 5px;
+                display: flex;
+                align-items: center;
+                gap: 10px;
+                font-family: Fira Sans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;                
+                color: #FFFFFF;
+                padding-left: 30px;
+                cursor: pointer;
             }
         }
     }

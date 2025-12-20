@@ -1,0 +1,60 @@
+.footer {
+    width: 100%;
+    max-width: 1031px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 70px;
+    margin-bottom: 72px;
+
+    &_card {
+
+        &--text {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 140%;
+            letter-spacing: 0%;
+            color: #B2B2B2B2;
+            width: 166px;
+            margin-top: 33px;
+        }
+
+        &--year {
+            font-family: Fira Sans;
+            font-weight: 400;
+            font-size: 12px;
+            line-height: 140%;
+            letter-spacing: 0%;
+            color: #B2B2B2B2;
+        }
+
+        &--title {
+            font-family: Fira Sans;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 100%;
+            letter-spacing: 0%;
+            color: #111238;
+            margin-bottom: 15px;
+        }
+
+        &--box {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+
+            &--link {
+                font-family: Fira Sans;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 100%;
+                letter-spacing: 0%;
+                color: #111238;
+                text-decoration: none;
+            }
+        }
+    }
+}
